@@ -1,26 +1,77 @@
-<html>
+<!DOCTYPE html>
 <head>
    <link rel="stylesheet" href="style.css">
+   
 </head>
 
-<div id="wraptarget1">
-   <img src = "img/target.png">
+
+
+<div class="wrap"> 
+    
+    <div class="wrapfork">
+        <script src="java.js"></script>
+       <img src = "img/fork.png"></a>
+    </div>
+    <div id="wrapplate">
+        <img src = "img/plate.png"></a>
+     </div>
+     <div id="wrapknife">
+        <img src = "img/knife.png"></a>
+     </div>
+
+
+     <div class="box">
+        <img class="front" src="img/eaten broccoli.png" alt="">
+        <img class="back" src="img/broccoli.png" alt="">   
+    </div>
 </div>
 
-<div id="wraptarget2">
-   <img src = "img/target.png">
+
+<div class="popup" id="popup"-1>
+<div class ="overlay"> </div>
+<div class ="content">
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+    <h1 class="bold">Nutrition Facts</h1>
+    <div class="divider"></div>
+    <p> Serving Size 8 Stalks (85g)</p>
+    <p>Servings Per Container</p>
+
+</header>
+<div class="divider large"></div>
+<div class="calories-info">
+  <div class="left-container">
+    <p>Calories</p>
+</div>
+<span>35</span>
+</div>
+<div class="divider medium"></div>
+<div class="daily-value small-text">
+  <p class="bold right no-divider">% Daily Value*</p>
+  <div class="divider"></div>
+  <p><span><span class="bold">Total Fat</span> 0g</span> <span class="bold">0%</span></p>
+
+  <p class="indent no-divider">Saturated Fat 0g <span class="bold">0%</span></p>
+  <p class="indent no-divider">Trans Fat 0g <span class="bold">0%</span></p>
+  <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p>
+  <p><span><span class="bold">Sodium</span> 25mg</span> <span class="bold">1%</span></p>
+  <p><span><span class="bold">Total Carbohydrate</span> 6g</span> <span class="bold">2%</span></p>
+  <p class="indent no-divider">Dietary Fiber 1g <span class="bold">4%</span></p>
+  <p class="indent no-divider">Sugars 2g <span class="bold"></p>
+    <p><span class="bold"><p class="no-divider">Protein</span> 3g</span> </p>
+    <div class="divider large"></div>
+    <p>Vitamin A <span>30%</span></p>
+    <p>Vitamin C <span>130%</span></p>
+    <p>Calcium <span>6%</span></p>
+    <p class="no-divider">Iron <span>4%</span></p>
+</div>
+<div class="medium divider"></div>
+<p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</p>
 </div>
 
-<div id="wraptarget3">
-   <img src = "img/target.png">
-</div>
 
-<div id="wraparrow">
-   <img src = "img/arrow.png">
-</div>
+<button onclick="togglePopup()" > Show Popup</button>"
 
-<div class="leftpart"></div>
-<img src = "img/arrow.png"
-height="300" width="20"/>
 
-</html>
+
+
+ </html>
