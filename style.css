@@ -1,0 +1,56 @@
+#wraptarget1 {
+    position: relative;
+    margin-left: calc(30vw - 350px);
+    margin-top: calc(38vh - 00px);
+    width: 350px;
+}
+
+#wraptarget1 img {
+    width: 100%
+}
+
+#wraptarget2 {
+    position: absolute;
+    margin-left: 38%;
+    margin-top: calc(1vh - 960px);
+    width: 270px;
+}
+
+#wraptarget2 img {
+    width: 100%
+}
+
+#wraptarget3 {
+    position: relative;
+    margin-left: calc(70vw - 60px);
+    margin-top: calc(4vh - 600px);
+    width: 350px;
+}
+
+#wraptarget3 img {
+    width: 100%
+}
+
+#wraparrow {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 30px;
+}
+
+#wraparrow img {
+    width: 100%
+}
+
+.leftpart {
+    position: relative;
+    float: left;
+    background-color: rgba(100, 100, 100, 0.6);
+    margin-top: calc(5vh - 1000px);
+    height: 100%;
+    width: 50%;
+  }
+
+.leftpart:hover wraparrow img {
+    transform: rotate(70deg);
+  }
